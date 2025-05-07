@@ -1,0 +1,3 @@
+FROM python:3.10
+COPY runners/python/main.py /main.py
+CMD ["python", "/main.py"]
