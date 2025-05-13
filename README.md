@@ -69,7 +69,7 @@ pip install flask
 ### 4. Build the Python Docker Image
 
 ```bash
-docker build -t polyglot-python -f Dockerfiles/Dockerfile.python .
+DOCKER_BUILDKIT=0 docker build -t polyglot-java -f Dockerfiles/Dockerfile.java .
 ```
 ### 5. Run the Flask Server
 
